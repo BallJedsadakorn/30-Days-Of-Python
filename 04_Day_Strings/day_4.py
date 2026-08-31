@@ -1,7 +1,7 @@
 
 # Single line comment
-letter = 'P'                # A string could be a single character or a bunch of texts
-print(letter)               # P
+letter = 'B'                # A string could be a single character or a bunch of texts
+print(letter)               # B
 print(len(letter))          # 1
 greeting = 'Hello, World!'  # String could be  a single or double quote,"Hello, World!"
 print(greeting)             # Hello, World!
@@ -21,11 +21,11 @@ That is why I created 30 days of python."""
 print(multiline_string)
 
 # String Concatenation
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Jedsadakorn'
+last_name = 'Boonlerd'
 space = ' '
 full_name = first_name + space + last_name
-print(full_name)  # Asabeneh Yetayeh
+print(full_name)  # Jedsadakorn Boonlerd
 # Checking length of a string using len() builtin function
 print(len(first_name))  # 8
 print(len(last_name))   # 7
@@ -119,13 +119,13 @@ print(challenge.find('y'))  # 5
 print(challenge.find('th'))  # 0
 
 # format()	formats string into nicer output
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Jedsadakorn'
+last_name = 'Boonlerd'
 job = 'teacher'
-country = 'Finland'
+country = 'Thailand'
 sentence = 'I am {} {}. I am a {}. I live in {}.'.format(
     first_name, last_name, job, country)
-print(sentence)  # I am Asabeneh Yetayeh. I am a teacher. I live in Finland.
+print(sentence)  # I am Jedsadakorn Boonlerd. I am a teacher. I live in Thailand.
 
 radius = 10
 pi = 3.14
